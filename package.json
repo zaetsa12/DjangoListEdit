@@ -1,0 +1,36 @@
+{
+  "name": "d-r",
+  "version": "1.0.0",
+  "description": "django-rest-api + react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./usermanager/frontend/src/index.js --output ./usermanager/frontend/static/frontend/bundle.js",
+    "build": "webpack --mode production --watch ./usermanager/frontend/src/index.js --output ./usermanager/frontend/static/frontend/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A125-coder/Django-REST.git"
+  },
+  "author": "Anna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A125-coder/Django-REST/issues"
+  },
+  "homepage": "https://github.com/A125-coder/Django-REST#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "react-uuid": "^1.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  }
+}

@@ -1,0 +1,6 @@
+/env
+/usermanager/users/__pycache__
+/usermanager/usermanager/__pycache__
+/.vscode
+node_modules
+/usermanager/frontend/__pycache__
